@@ -10,6 +10,9 @@
         "**/*.uf2": true
     },
     "files.associations": {
+        "*.cjson": "jsonc",
+        "*.wxss": "css",
+        "*.wxs": "javascript",
         "*.h": "c",
         "*.c": "c",
         "*.inc": "c",
@@ -18,7 +21,8 @@
         "xstddef": "c",
         "type_traits": "c",
         "utility": "c",
-        "ranges": "c"
+        "ranges": "c",
+        "random": "c"
     },
     "[markdown]": {
         "editor.trimAutoWhitespace": false,
