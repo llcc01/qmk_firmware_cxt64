@@ -114,7 +114,7 @@ bool rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
 
         
         HSV hsv = rgb_matrix_get_hsv();
-        hsv.v = 255;
+        // hsv.v = 255;
         hsv.s = 255;
 
         HSV hsv2 = hsv;
